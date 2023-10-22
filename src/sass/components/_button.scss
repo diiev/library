@@ -1,0 +1,118 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid $primary;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    color: $dark;
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: all .2s ease-out;
+    &:hover {
+        background-color: lighten($primary, 10%);
+        color: #fff;
+    }
+    &-primary {
+        background-color: $primary;
+        color: #fff;
+        border-color: $primary;
+        &:hover {
+            background-color: darken($primary, 10%);
+
+        }
+    }
+
+    &-success {
+        background-color: $success;
+        color: #fff;
+        border-color: $success;
+        &:hover {
+            background-color: darken($success, 10%);
+
+        }
+    }
+    &-danger {
+        background-color: $danger;
+        color: #fff;
+        border-color: $danger;
+        &:hover {
+            background-color: darken($danger, 10%);
+            
+        }
+    }
+
+    &-warning {
+        background-color: $warning;
+        color: #fff;
+        border-color: $warning;
+        &:hover {
+            background-color: darken($warning, 10%);
+            
+        }
+    }
+    &-dark {
+        background-color: $dark;
+        color: #fff;
+        border-color: $dark;
+        &:hover {
+            background-color: darken($dark, 10%);
+            
+        }
+    } 
+
+    // outline 
+    &-outline-primary {
+  
+        color:  $primary;
+        border-color: $primary;
+        &:hover {
+            background-color: $primary;
+
+        }
+    }
+
+    &-outline-success {
+        color: $success;
+        border-color: $success;
+        &:hover {
+            background-color: $success;
+
+        }
+    }
+    &-outline-danger {
+       
+        color:$danger;
+        border-color: $danger;
+        &:hover {
+            background-color: $danger;
+            
+        }
+    }
+
+    &-outline-warning {
+        
+        color:$warning;
+        border-color: $warning;
+        &:hover {
+            background-color: $warning;
+            
+        }
+    }
+    &-outline-dark {
+       
+        color: $dark;
+        border-color: $dark;
+        &:hover {
+            background-color: $dark;
+            
+        }
+    } 
+    &-block {
+        display: block;
+        width: 100%;
+    }
+}
