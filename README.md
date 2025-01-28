@@ -46,7 +46,8 @@ npm run dev
 -  Вы можете импортировать SCSS и JavaScript-файлы напрямую из папки src/ для более глубокой интеграции.
     
 **Пример интеграции SCSS и JS:**
-    ```bash
+   
+      ```bash
   scss
   @import "src/styles/buttons.scss"; 
   javascript
