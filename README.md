@@ -31,7 +31,30 @@
    cd library
 2. **Установка зависимостей:**
   Убедитесь, что у вас установлены Node.js и npm:
-```bash
+   ```bash
 npm install
-3. **Запуск локального сервера:**
+4. **Запуск локального сервера:** 
+    ```bash
+npm run dev
+4. **Сборка библиотеки** 
+    
+    ```bash 
+  nmp run build
+
+## Как использовать 
+-  Перейдите в папку dist/ и найдите готовые элементы для внедрения в ваш проект.
+-  Вы можете импортировать SCSS и JavaScript-файлы напрямую из папки src/ для более глубокой интеграции.
+    
+**Пример интеграции SCSS и JS:**
+    ```bash
+  scss
+  @import "src/styles/buttons.scss"; 
+  javascript
+  import { exampleFunction } from './src/js/example.js';
+exampleFunction();
+
+
+
+
+
 
